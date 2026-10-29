@@ -28,3 +28,78 @@ html::before{left:0}html::after{right:0}
 @media(prefers-reduced-motion:reduce){.hero::before,.hero::after,.inner-hero::before,.inner-hero::after,.contact-hero::before,.contact-hero::after{animation:none}}
 
 @media(max-width:760px){.contact-main .booking-wrap{order:-1}}
+
+
+/* Bolder Curry Nation art direction: maximal Indian colour, confident type, no generic floral containers. */
+.hero-showstopper{padding-top:44px;background:#082f31;isolation:isolate}
+.hero-showstopper .hero-inner{min-height:650px;grid-template-columns:1.02fr .98fr;gap:2%;max-width:1390px}
+.hero-showstopper .hero-copy{padding:34px 0 58px;max-width:720px}
+.hero-kicker{display:inline-flex;align-items:center;gap:12px;margin:0 0 28px;color:#f4bd39;font-size:11px;letter-spacing:2.8px;font-weight:800}
+.hero-kicker:before{content:"";width:36px;height:3px;background:#f4bd39}
+.hero-showstopper h1{font-family:var(--sans);font-weight:900;letter-spacing:-.075em;text-transform:uppercase;line-height:.88;font-size:clamp(66px,9.5vw,138px);margin:0 0 23px;max-width:780px}
+.hero-showstopper h1 em{color:#ff642f;font-style:normal;text-shadow:5px 5px 0 #f2b82e}
+.hero-showstopper h2{font-family:var(--serif);font-weight:500;font-size:clamp(27px,3vw,42px);letter-spacing:-1px;margin:0 0 18px;color:#fff4de}
+.hero-showstopper .hero-desc{max-width:540px;color:#d5e4d8;font-size:16px;line-height:1.75;margin-bottom:30px}
+.hero-showstopper .hero-actions{gap:14px}
+.hero-showstopper .button{font-size:13px;padding:16px 21px;min-height:54px;border-radius:0}
+.hero-showstopper .hero-art{min-height:650px;overflow:visible}
+.hero-showstopper .art-sun{width:min(41vw,520px);right:4%;top:4%;background:#f4b82e;border-radius:50%;box-shadow:0 0 0 12px #ff642f,0 0 0 20px #f4b82e;animation:sunPulse 7s ease-in-out infinite}
+.hero-showstopper .art-sun:before,.hero-showstopper .art-sun:after{content:none}
+.hero-showstopper .rickshaw-art{width:100%;max-width:650px;max-height:650px;right:-5%;bottom:0;filter:drop-shadow(0 28px 14px #001a1b99);animation:rickshawFloat 6s ease-in-out infinite}
+.hero-word-art{position:absolute;z-index:3;left:-7%;top:12%;display:flex;flex-direction:column;transform:rotate(-8deg);color:#fff2d7;text-shadow:3px 3px 0 #76240f}
+.hero-word-art span{font-weight:900;font-size:clamp(18px,2vw,28px);letter-spacing:5px;background:#c84d20;padding:3px 13px;width:max-content}
+.hero-word-art strong{font-size:clamp(38px,5.4vw,72px);font-weight:1000;letter-spacing:-.08em;line-height:.8;background:#c84d20;padding:12px 14px;border:3px solid #f4b82e}
+.hero-word-art i{margin-top:10px;background:#f4b82e;color:#173d37;padding:5px 10px;font-size:9px;letter-spacing:1.5px;font-style:normal;font-weight:900;text-shadow:none;width:max-content}
+.hero-art-ribbon{position:absolute;z-index:4;bottom:32px;right:-2%;background:#f4b82e;color:#173d37;font-size:10px;font-weight:900;letter-spacing:1.8px;padding:13px 18px;transform:rotate(-3deg);box-shadow:5px 5px 0 #c84d20}
+.hero-art-ribbon span{color:#c84d20;padding:0 7px}
+.hero-showstopper .hero-bottomline{border-top:1px solid #f4b82e55;padding:19px 0 22px;font-weight:800;letter-spacing:1.4px;font-size:10px;color:#f5e7c9}
+.hero-showstopper .hero-bottomline span:nth-child(2){color:#ff642f}
+.client-marquee{position:relative;background:#fff8ec;padding:24px 0 29px;border-bottom:1px solid #d9b96f;overflow:hidden}
+.client-marquee-head{display:flex;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;padding:0 5% 18px;color:#163e3a}
+.client-marquee-head span{font-size:9px;font-weight:900;letter-spacing:2px;color:#bd4822}
+.client-marquee-head strong{font-family:var(--serif);font-size:19px;font-weight:600}
+.client-marquee-window{overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
+.client-marquee-track{display:flex;align-items:center;gap:48px;width:max-content;animation:logoDrift 52s linear infinite}
+.client-marquee-window:hover .client-marquee-track{animation-play-state:paused}
+.client-logo{width:126px;height:58px;display:grid;place-items:center;flex:0 0 126px}
+.client-logo img{max-width:112px;max-height:48px;width:auto;height:auto;object-fit:contain;filter:grayscale(1);opacity:.76;transition:filter .3s,opacity .3s,transform .3s}
+.client-logo:hover img{filter:grayscale(0);opacity:1;transform:scale(1.12)}
+.ornament-divider{display:flex;align-items:center;justify-content:center;gap:18px;margin:58px auto 42px;color:var(--rust);font-size:10px;font-weight:900;letter-spacing:2px}
+.ornament-divider i{display:block;height:2px;width:min(18vw,180px);background:linear-gradient(90deg,var(--saffron),var(--rust),var(--teal))}
+.card-bottom-ornament{font-family:var(--sans);font-size:26px!important;font-weight:800;opacity:.8}
+.service-sun{font-family:var(--sans)!important;font-size:30px!important;font-weight:800}
+.hero::before,.hero::after,.inner-hero::before,.inner-hero::after,.contact-hero::before,.contact-hero::after{content:none!important}
+.calendar-card::before,.time-card::before{content:none!important}
+.intro-mandala:before,.intro-mandala:after{content:"";border:1px solid #c84d20;border-radius:50%;inset:0;font-size:0;opacity:.5}
+.intro-mandala:after{inset:18px;transform:none;border:1px dashed #176d70}
+@keyframes logoDrift{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes rickshawFloat{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-14px) rotate(1deg)}}
+@keyframes sunPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.035)}}
+@media(max-width:900px){
+ .hero-showstopper{padding-top:25px}
+ .hero-showstopper .hero-inner{grid-template-columns:1fr;gap:0;min-height:unset}
+ .hero-showstopper .hero-copy{padding:38px 0 8px}
+ .hero-showstopper h1{font-size:clamp(60px,13vw,100px)}
+ .hero-showstopper .hero-art{min-height:500px;margin-top:0}
+ .hero-showstopper .art-sun{width:min(70vw,390px);right:10%;top:8%}
+ .hero-showstopper .rickshaw-art{width:88%;right:3%;max-height:490px}
+ .hero-word-art{left:0;top:8%}
+ .hero-art-ribbon{right:0;bottom:15px}
+}
+@media(max-width:600px){
+ .hero-showstopper{padding-left:7%;padding-right:7%}
+ .hero-showstopper h1{font-size:clamp(55px,15vw,82px);letter-spacing:-.07em}
+ .hero-showstopper .hero-desc{font-size:14px}
+ .hero-showstopper .hero-art{min-height:365px}
+ .hero-showstopper .rickshaw-art{max-height:360px;width:95%;right:0}
+ .hero-showstopper .art-sun{width:70vw;right:8%;top:12%}
+ .hero-word-art strong{font-size:42px}
+ .hero-word-art span{font-size:15px}
+ .hero-art-ribbon{font-size:8px;letter-spacing:1px;padding:9px 11px}
+ .hero-showstopper .hero-bottomline{gap:10px;flex-wrap:wrap;font-size:8px}
+ .client-marquee-head{gap:6px;flex-direction:column;text-align:center}
+ .client-marquee-head strong{font-size:16px}
+ .client-marquee-track{gap:28px}
+ .client-logo{width:95px;flex-basis:95px}
+}
+@media(prefers-reduced-motion:reduce){.client-marquee-track,.rickshaw-art,.art-sun{animation:none!important}}
