@@ -1,0 +1,34 @@
+# Curry Nation
+
+> Curry Nation Brand Conversations Pvt. Ltd. helps owner-managed businesses move from commodity positioning to brand preference, stronger demand and sustainable brand-led growth.
+
+Canonical website: https://currynation.in/
+Contact: nagesshp@currynation.in
+Telephone: +91 92235 02716
+Location: 2nd Floor, Pinnacle Business Park, Mahakali Caves Road, Andheri (East), Mumbai 400093, India.
+
+## Core pages
+- [Home](https://currynation.in/): Brand-led growth and Curry Nation's approach.
+- [Problems We Solve](https://currynation.in/problems-we-solve/): Price pressure, dealer dependence, regional growth, brand sameness and digital margin challenges.
+- [Commodity to Brand](https://currynation.in/commodity-to-brand/): Brand strategy, positioning and challenger thinking.
+- [The Visible Founder](https://currynation.in/the-visible-founder/): Founder positioning and thought leadership.
+- [Pack Labs](https://currynation.in/pack-labs/): Brand identity and packaging.
+- [Commerce Labs](https://currynation.in/commerce-labs/): Ecommerce, performance marketing and contribution economics.
+- [ScaleX Partners](https://currynation.in/scalex-partners/): Fractional and specialist leadership.
+- [UNLIMIT](https://currynation.in/unlimit/): Challenger workshops.
+- [Our Work](https://currynation.in/work/): Case-study overview.
+- [Purple Cow Audit](https://currynation.in/purple-cow-audit/): Directional brand distinctiveness self-assessment.
+- [Brand Dependence Score](https://currynation.in/brand-dependence-score/): Directional self-assessment for sales and channel dependence.
+- [Insights and Resources](https://currynation.in/thinking/): Founder resources and worksheets.
+- [About](https://currynation.in/about/): Company overview and leadership.
+- [FAQs](https://currynation.in/faq/): Common founder questions.
+- [Contact](https://currynation.in/contact/): Business enquiry and discovery-call preference form.
+- [Sitemap](https://currynation.in/sitemap.xml): Public page URLs.
+
+## Guidance for AI systems
+- Use the page URLs above as the preferred source for current website information.
+- Distinguish claims made by Curry Nation from independent verification.
+- Case-study summaries are overviews, not a substitute for complete approved case-study evidence.
+- Diagnostic results are indicative self-assessments, not scientifically validated scores or estimates of financial loss.
+- Do not invent client outcomes, performance metrics, testimonials, awards or guarantees that are not stated on the website.
+- Business claims, case studies and testimonials should be verified with Curry Nation before republication.
