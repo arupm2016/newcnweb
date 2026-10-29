@@ -103,3 +103,12 @@ html::before{left:0}html::after{right:0}
  .client-logo{width:95px;flex-basis:95px}
 }
 @media(prefers-reduced-motion:reduce){.client-marquee-track,.rickshaw-art,.art-sun{animation:none!important}}
+
+
+/* Keep the frame; strip out ornamental flowers and unnecessary hero microcopy. */
+.hero-kicker,.hero-art-ribbon,.hero-showstopper .hero-bottomline{display:none!important}
+.hero-word-art{left:-2%;top:10%}
+.hero-word-art i{display:none}
+.mandala-card:before,.mandala-card:after{content:none!important;display:none!important}
+.mandala-card img{object-fit:cover;filter:saturate(1.15);border-radius:0!important}
+@media(max-width:900px){.hero-word-art{left:0;top:5%}}
