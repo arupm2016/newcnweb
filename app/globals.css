@@ -26,3 +26,5 @@ html::before{left:0}html::after{right:0}
 @keyframes ornamentDrift{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-7px) rotate(8deg)}}
 @media(max-width:760px){html::before,html::after{width:4px}.hero::before,.inner-hero::before,.contact-hero::before{left:12px;top:10px;font-size:19px}.hero::after,.inner-hero::after,.contact-hero::after{right:12px;bottom:8px;font-size:19px}.calendar-card,.time-card,.booking-wrap{outline-offset:2px}.time-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(prefers-reduced-motion:reduce){.hero::before,.hero::after,.inner-hero::before,.inner-hero::after,.contact-hero::before,.contact-hero::after{animation:none}}
+
+@media(max-width:760px){.contact-main .booking-wrap{order:-1}}
